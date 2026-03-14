@@ -26,13 +26,14 @@ python install.py
 | `p` Project（项目） | 安装到当前目录，可通过 git 共享给团队 |
 | `c` Custom（自定义） | 手动输入任意路径 |
 
-### 各 Agent 常见安装路径参考
+### 各 Agent 安装路径参考
 
 | Agent | 全局路径 | 项目路径 |
 |-------|---------|---------|
 | Cursor | `~/.cursor/skills/` | `.cursor/skills/` |
 | Claude Code | `~/.claude/skills/` | `.claude/skills/` |
-| 其他 | 参考各 Agent 文档 | — |
+| 通义灵码 Lingma | `~/.lingma/skills/` | `.lingma/skills/` |
+| 自定义 | 手动输入任意路径 | — |
 
 ## 使用方式
 
