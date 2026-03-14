@@ -8,7 +8,6 @@
 上海灵活就业社保缴费标准一览表：https://m.sh.bendibao.com/zffw/283052.html
 灵活就业人员养老保险缴费比例调整补充通知：http://ts.shtaixie.org/article/1407
 上海社保政策专题（本地宝）：https://sh.bendibao.com/shsi/list_22_204_1.htm
-2025年灵活就业人员社保缴费标准（高台县）：http://www.gaotai.gov.cn/zfxxgk/gzzfxxgk/hqz/ggflfw_hqz/202502/t20250227_1363051_wap.html
 灵活就业人员参保手续办理指南（上海人社局）：https://rsj.sh.gov.cn/tmsztc_17502/20260304/t0035_1439081.html
 上海社保：灵活就业“一件事”线上操作指南：https://m12333.cn/qa/mppmz.html
 领取失业金人员缴纳职工养老保险操作指南：https://m12333.cn/qa/pryap.html
