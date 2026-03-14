@@ -3,6 +3,13 @@
 install.py — Shanghai Unemployment Advisor Skill Installer
 Supports macOS, Windows, and Linux.
 
+Installs the skill into any agent skills directory.
+Common paths by agent:
+  Cursor (global)      : ~/.cursor/skills/
+  Cursor (project)     : .cursor/skills/
+  Claude Code (global) : ~/.claude/skills/
+  Claude Code (project): .claude/skills/
+
 Usage:
     python install.py
 """
@@ -14,16 +21,16 @@ import platform
 from pathlib import Path
 
 SKILL_NAME = "shanghai-unemployment-advisor"
-SKILL_DIR = Path(__file__).parent / SKILL_NAME
+SKILL_DIR  = Path(__file__).parent / SKILL_NAME
 
 
-# ── Terminal colours (disabled on Windows unless ANSICON/WT is detected) ──────
+# ── Terminal colours ──────────────────────────────────────────────────────────
 
 def _supports_colour() -> bool:
     if platform.system() == "Windows":
         return (
             "ANSICON" in os.environ
-            or "WT_SESSION" in os.environ          # Windows Terminal
+            or "WT_SESSION" in os.environ
             or os.environ.get("TERM_PROGRAM") == "vscode"
         )
     return sys.stdout.isatty()
@@ -42,11 +49,14 @@ def red(t):    return _c("31", t)
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
+def home() -> Path:
+    if platform.system() == "Windows":
+        return Path(os.environ.get("USERPROFILE", Path.home()))
+    return Path.home()
+
+
 def ask(prompt: str, choices: list[str], default: str) -> str:
-    """Prompt the user and return their validated choice."""
-    choice_str = "/".join(
-        c.upper() if c == default else c for c in choices
-    )
+    choice_str = "/".join(c.upper() if c == default else c for c in choices)
     while True:
         raw = input(f"{prompt} [{choice_str}]: ").strip().lower()
         if raw == "":
@@ -56,23 +66,12 @@ def ask(prompt: str, choices: list[str], default: str) -> str:
         print(red(f"  Please enter one of: {', '.join(choices)}"))
 
 
-def global_skills_dir() -> Path:
-    """Return the global Cursor skills directory for the current OS."""
-    system = platform.system()
-    if system == "Windows":
-        base = Path(os.environ.get("USERPROFILE", Path.home()))
-    else:
-        base = Path.home()
-    return base / ".cursor" / "skills"
-
-
-def project_skills_dir() -> Path:
-    """Return the project-level Cursor skills directory (cwd-relative)."""
-    return Path.cwd() / ".cursor" / "skills"
+def ask_path(prompt: str, default: Path) -> Path:
+    raw = input(f"{prompt} [{default}]: ").strip()
+    return Path(raw).expanduser() if raw else default
 
 
 def install_skill(target_dir: Path) -> None:
-    """Copy the skill folder into target_dir, with overwrite confirmation."""
     dest = target_dir / SKILL_NAME
 
     if dest.exists():
@@ -83,14 +82,12 @@ def install_skill(target_dir: Path) -> None:
             return
         shutil.rmtree(dest)
 
+    target_dir.mkdir(parents=True, exist_ok=True)
     print(f"\n  Copying skill to:\n  {cyan(str(dest))}")
     shutil.copytree(SKILL_DIR, dest)
     print(green("\n  ✓ Skill installed successfully!\n"))
-
-    # Print quick-start hint
-    print(bold("  Quick start:"))
-    print("  Open any project in Cursor and ask something like:")
-    print(cyan('  "上海失业金怎么领？" or "我被裁员了社保怎么办？"\n'))
+    print(bold("  Quick start — ask your agent:"))
+    print(cyan('  "上海失业金怎么领？" / "我被裁员了社保怎么处理？"\n'))
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -100,31 +97,48 @@ def main() -> None:
     print(bold("╔══════════════════════════════════════════════════════╗"))
     print(bold("║   Shanghai Unemployment Advisor — Skill Installer    ║"))
     print(bold("╚══════════════════════════════════════════════════════╝"))
-    print(f"\n  Detected OS : {cyan(platform.system())} ({platform.machine()})")
-    print(f"  Skill       : {cyan(SKILL_NAME)}")
+    print(f"\n  OS    : {cyan(platform.system())} ({platform.machine()})")
+    print(f"  Skill : {cyan(SKILL_NAME)}")
 
-    # Verify source skill exists
     if not SKILL_DIR.exists():
-        print(red(f"\n  ✗ Skill source not found at:\n    {SKILL_DIR}"))
-        print(red("  Make sure you run install.py from the repository root."))
+        print(red(f"\n  ✗ Skill source not found: {SKILL_DIR}"))
+        print(red("  Run install.py from the repository root."))
         sys.exit(1)
 
+    # ── Reference table ───────────────────────────────────────────────────
     print()
-    print(bold("  Where would you like to install the skill?"))
-    print(f"  {bold('g')} — Global  {cyan(str(global_skills_dir() / SKILL_NAME))}")
-    print(f"      Available in ALL your Cursor projects")
-    print(f"  {bold('p')} — Project {cyan(str(project_skills_dir() / SKILL_NAME))}")
-    print(f"      Available only in the current project (shared via git)")
+    print(bold("  Common agent skills paths:"))
+    entries = [
+        ("Cursor",      "global",  "~/.cursor/skills/"),
+        ("Cursor",      "project", ".cursor/skills/"),
+        ("Claude Code", "global",  "~/.claude/skills/"),
+        ("Claude Code", "project", ".claude/skills/"),
+    ]
+    for agent, scope, path in entries:
+        print(f"    {agent:<14} {scope:<9} {cyan(path)}")
+
+    # ── Scope choice ──────────────────────────────────────────────────────
+    print()
+    print(bold("  Install scope:"))
+    print(f"  {bold('g')} — Global   (user home, available across all projects)")
+    print(f"  {bold('p')} — Project  (current directory, shareable via git)")
+    print(f"  {bold('c')} — Custom   (enter any path)")
     print()
 
-    choice = ask("  Install location", ["g", "p", "q"], "g")
+    scope = ask("  Scope", ["g", "p", "c", "q"], "g")
 
-    if choice == "q":
+    if scope == "q":
         print("\n  Cancelled.\n")
         sys.exit(0)
 
-    target = global_skills_dir() if choice == "g" else project_skills_dir()
-    target.mkdir(parents=True, exist_ok=True)
+    if scope == "g":
+        default_dir = home() / ".skills"
+        target = ask_path("  Global skills directory", default_dir)
+    elif scope == "p":
+        default_dir = Path.cwd() / "skills"
+        target = ask_path("  Project skills directory", default_dir)
+    else:
+        target = ask_path("  Enter destination path", home() / ".skills")
 
     install_skill(target)
 

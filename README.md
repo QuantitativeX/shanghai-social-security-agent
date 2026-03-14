@@ -1,6 +1,6 @@
-# 上海失业政策咨询 — Cursor Agent Skill
+# 上海失业政策咨询 — Agent Skill
 
-一个基于 [Agent Skills](https://agentskills.io/specification) 规范构建的 Cursor 智能体技能，专门解答 **2025-2026 年上海市失业保险与社保政策**问题。
+基于 [Agent Skills](https://agentskills.io/specification) 规范构建的智能体技能，专门解答 **2025-2026 年上海市失业保险与社保政策**问题，兼容所有支持 Agent Skills 标准的 AI 助手。
 
 ## 功能
 
@@ -18,23 +18,25 @@
 python install.py
 ```
 
-运行后按提示选择安装位置：
+运行后按提示选择安装范围和路径：
 
-| 选项 | 路径 | 适用场景 |
-|------|------|---------|
-| `g` Global（全局） | `~/.cursor/skills/` | 所有 Cursor 项目均可使用 |
-| `p` Project（项目） | `.cursor/skills/`（当前目录） | 仅当前项目，可通过 git 共享给团队 |
+| 选项 | 说明 |
+|------|------|
+| `g` Global（全局） | 安装到用户主目录，所有项目可用 |
+| `p` Project（项目） | 安装到当前目录，可通过 git 共享给团队 |
+| `c` Custom（自定义） | 手动输入任意路径 |
 
-### 平台支持
+### 各 Agent 常见安装路径参考
 
-| 平台 | 全局路径 |
-|------|---------|
-| macOS / Linux | `~/.cursor/skills/shanghai-unemployment-advisor/` |
-| Windows | `%USERPROFILE%\.cursor\skills\shanghai-unemployment-advisor\` |
+| Agent | 全局路径 | 项目路径 |
+|-------|---------|---------|
+| Cursor | `~/.cursor/skills/` | `.cursor/skills/` |
+| Claude Code | `~/.claude/skills/` | `.claude/skills/` |
+| 其他 | 参考各 Agent 文档 | — |
 
 ## 使用方式
 
-安装完成后，在 Cursor 中打开任意项目，直接用中文提问即可触发技能：
+安装完成后，直接用中文向支持该技能的 AI 助手提问：
 
 ```
 上海失业金怎么领？
@@ -57,7 +59,8 @@ shanghai-unemployment-advisor/
     └── fetch_policy.py       # 网页内容抓取脚本（备用，纯标准库）
 ```
 
-技能采用**渐进式披露**策略（符合 agentskills.io 规范）：
+技能采用**渐进式披露**策略（符合 [agentskills.io](https://agentskills.io/specification) 规范）：
+
 1. 启动时仅加载 `name` + `description`（~100 tokens）
 2. 触发后加载 `SKILL.md` 正文
 3. `references/` 文件按需读取，节省上下文
