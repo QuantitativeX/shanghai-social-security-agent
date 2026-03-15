@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Agent Skills Compatible](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io/specification)
+[![GitHub Pages](https://img.shields.io/badge/🌐_Website-Visit-blue)](https://quantitativex.github.io/shanghai-social-security-agent/)
+
+**🌐 [查看项目主页 · Visit Project Site](https://quantitativex.github.io/shanghai-social-security-agent/)**
 
 **基于 Agent Skills 规范构建的智能体技能 | AI Agent Skill for Shanghai Unemployment Insurance & Social Security Policy Consultation**
 
@@ -176,6 +179,7 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## 🔗 相关链接 | Related Links
 
+- [🌐 项目主页 Project Website](https://quantitativex.github.io/shanghai-social-security-agent/) - 在线介绍页
 - [Agent Skills Specification](https://agentskills.io/specification) - Agent Skills 技术规范
 - [上海市人力资源和社会保障局](https://rsj.sh.gov.cn/) - Shanghai HR & Social Security Bureau
 - [随申办 APP 下载](https://zwdt.sh.gov.cn/) - Shanghai Government Service Platform
