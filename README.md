@@ -1,4 +1,4 @@
-# 上海失业政策咨询助手 | Shanghai Unemployment & Social Security Advisor
+# Agent Skill | 上海失业政策咨询助手 | Shanghai Unemployment & Social Security Advisor
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
