@@ -1,10 +1,13 @@
-# 上海失业政策咨询助手 | Shanghai Unemployment & Social Security Advisor
+# Agent Skill | 上海失业政策咨询助手 | Shanghai Unemployment & Social Security Advisor
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Agent Skills Compatible](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io/specification)
 [![v1.0.1](https://img.shields.io/badge/version-1.0.1-blue)](CHANGELOG.md)
 [![Active Development](https://img.shields.io/badge/status-actively%20maintained-brightgreen)](CHANGELOG.md)
+[![GitHub Pages](https://img.shields.io/badge/🌐_Website-Visit-blue)](https://quantitativex.github.io/shanghai-social-security-agent/)
+
+**🌐 [查看项目主页 · Visit Project Site](https://quantitativex.github.io/shanghai-social-security-agent/)**
 
 **基于 Agent Skills 规范构建的智能体技能 | AI Agent Skill for Shanghai Unemployment Insurance & Social Security Policy Consultation**
 
@@ -242,6 +245,7 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## � 文档与资源 | Documentation & Resources
 
+<<<<<<< HEAD
 ### 项目文件 | Project Files
 - [CONTRIBUTING.md](CONTRIBUTING.md) - **贡献指南** | Contributing Guidelines
 - [CHANGELOG.md](CHANGELOG.md) - **变更日志** | Version History & Updates
@@ -253,6 +257,13 @@ MIT License - See [LICENSE](LICENSE) file for details.
 - [references/policy-guide.md](shanghai-unemployment-advisor/references/policy-guide.md) - 详细政策知识库
 - [references/jobqa.md](shanghai-unemployment-advisor/references/jobqa.md) - 常见问题问答
 - [references/source.md](shanghai-unemployment-advisor/references/source.md) - 官方资源链接
+=======
+- [🌐 项目主页 Project Website](https://quantitativex.github.io/shanghai-social-security-agent/) - 在线介绍页
+- [Agent Skills Specification](https://agentskills.io/specification) - Agent Skills 技术规范
+- [上海市人力资源和社会保障局](https://rsj.sh.gov.cn/) - Shanghai HR & Social Security Bureau
+- [随申办 APP 下载](https://zwdt.sh.gov.cn/) - Shanghai Government Service Platform
+- [12333 政策问答](https://m12333.cn/) - National Social Security Q&A Platform
+>>>>>>> 1e15e954371d3340485baac0b1eb00b851163b09
 
 ---
 
