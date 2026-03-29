@@ -250,6 +250,7 @@ MIT License - See [LICENSE](LICENSE) file for details.
 - [CONTRIBUTING.md](CONTRIBUTING.md) - **贡献指南** | Contributing Guidelines
 - [CHANGELOG.md](CHANGELOG.md) - **变更日志** | Version History & Updates
 - [GITHUB_SEO_GUIDE.md](GITHUB_SEO_GUIDE.md) - **GitHub 优化指南** | GitHub Repository Optimization Guide
+- [CHINESE_SEARCH_ENGINES.md](CHINESE_SEARCH_ENGINES.md) - **中文搜索引擎验证** | Chinese Search Engine Verification Guide
 - [LICENSE](LICENSE) - **许可证** | MIT License
 
 ### 核心文档 | Core Documentation
