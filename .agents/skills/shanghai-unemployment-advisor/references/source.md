@@ -1,0 +1,36 @@
+一、 主要政策与新闻参考链接（核心列表）
+领取失业金及各类补贴详情：https://www.51ldb.com/shsldb/zc/content/01953d2599d4c0010000d7c90f012edc.html
+2025上海失业金领取条件及标准：https://m.sh.bendibao.com/zffw/288778.html
+失业保险金支付标准调整通知（2025年）：https://m12333.cn/policy/pbpui.html
+失业保险金标准调整政策问答（2025年）：https://m12333.cn/qa/pbpuw.html
+上海失业保险领取指南：https://m.sh.bendibao.com/zffw/152542.html
+申请领取失业保险金（上海“一网通办”平台）：https://zwdt.sh.gov.cn/govPortals/bsfw/item/d6e45dd0-6ac7-4643-a25e-4982afaf80a4
+上海灵活就业社保缴费标准一览表：https://m.sh.bendibao.com/zffw/283052.html
+灵活就业人员养老保险缴费比例调整补充通知：http://ts.shtaixie.org/article/1407
+上海社保政策专题（本地宝）：https://sh.bendibao.com/shsi/list_22_204_1.htm
+灵活就业人员参保手续办理指南（上海人社局）：https://rsj.sh.gov.cn/tmsztc_17502/20260304/t0035_1439081.html
+上海社保：灵活就业“一件事”线上操作指南：https://m12333.cn/qa/mppmz.html
+领取失业金人员缴纳职工养老保险操作指南：https://m12333.cn/qa/pryap.html
+领取失业金人员养老保险操作指南（解放日报/上观新闻）：https://web.shobserver.com/sgh/detail?id=1531048
+申请认定为就业困难人员的条件说明（上海人社局）：https://rsj.sh.gov.cn/tcjjyyhzc_17545/20260127/t0035_1438274.html
+沪就业困难人员认定及退出权威解答（人民网上海频道）：http://sh.people.com.cn/n2/2023/0118/c134768-40272871.html
+上海市就业困难人员认定标准及援助政策：https://m.sh.bendibao.com/zffw/279434.html
+就业困难人员申请（“一网通办”平台）：https://zwdt.sh.gov.cn/govPortals/bsfw/item/f74bd4c4-cf4c-44c5-b78a-4b093acc6817
+上海市“就业困难人员认定”办事指南：https://m12333.cn/qa/ybuf.html
+灵活就业社保费补贴申请指南：https://www.shhk.gov.cn/shhk-zwgk/rest/frame/base/attach/attachAction/getContent?isCommondto=true&attachGuid=bdd562e7-f19c-4c15-a754-aa7b00af5529
+社保免缴新政！至2026年12月31日（同花顺）：http://m.10jqka.com.cn/20251022/c671910671.shtml
+上海4050社保补贴政策需要什么条件（本地宝）：https://m.sh.bendibao.com/mip/270101.html
+2026年灵活就业社保补贴申报公告：https://m12333.cn/policy/smeem.html
+领取大龄失业就业岗位补贴的条件及标准：https://rsj.sh.gov.cn/tcjjyyhzc_17545/20231031/t0035_1419197.html
+2026年长宁区政府工作报告（长宁政务公开）：https://zwgk.shcn.gov.cn/xxgk/qzfgzbg-zw/2026/22/80121.html
+2026年政府工作报告全文解析（经济形势报告网）：http://www.china-cer.com.cn/news/2026031431461.html
+2026年国务院政府工作报告（中国共产党新闻网）：https://cpc.people.com.cn/n1/2026/0314/c64094-40681883.html
+一次性扩岗补助政策（随申兑）：https://zwdt.sh.gov.cn/qykj/shell_oc_policy_zq/policy/project-detail?id=6829c4a2d1083f11d7925e94&freeEnjoy=false
+《黄浦区进一步推动就业创业高质量发展实施办法》：https://www.sh-hitech.com/ryrd/8626.html
+上海一次性就业补贴申请条件及对象：https://m.sh.bendibao.com/zffw/286388.html
+上海市关于2026年“元旦、春节”期间一次性补助的通知：https://m12333.cn/policy/smusr.html
+聚焦灵活就业人员社保难题建议（劳动报）：https://www.51ldb.com/shsldb/sz/content/019cdb7296cec0010000dd82f3b39891.html
+二、 其他补充链接
+六类高校毕业生可申领一次性求职补贴（中国政府网政策原文）：https://www.gov.cn/zhengce/202509/content_7042592.htm
+上海闵行区2026年购车补贴相关信息：http://m.sh.bendibao.com/mip/304346.html
+2026浦东新区购车补贴标准及申领流程：http://m.sh.bendibao.com/mip/304277.html
