@@ -1,12 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - Highest Priority -->
   <url>
     <loc>https://quantitativex.github.io/shanghai-social-security-agent/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://quantitativex.github.io/shanghai-social-security-agent/"/>
-    <xhtml:link rel="alternate" hreflang="en"    href="https://quantitativex.github.io/shanghai-social-security-agent/"/>
   </url>
+
+  <!-- Main Policy Pages - High Priority -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/unemployment-insurance</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/flexible-employment</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/4050-policy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/enterprise-subsidies</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Documentation Pages -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/guide</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/installation</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/usage</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- FAQ and Support -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/faq</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/troubleshooting</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Community and Contribution -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/contributing</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/community</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Detailed Policy Guides -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/unemployment-benefits/eligibility</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/unemployment-benefits/amount-duration</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/unemployment-benefits/application-process</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/flexible-employment/how-to-enroll</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/flexible-employment/contribution-rates</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/4050-policy/who-qualifies</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/4050-policy/subsidy-amount</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/4050-policy/application</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Blog/Articles -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/blog</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/blog/2026-policy-updates</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/blog/how-to-use-skill</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Resources and Links -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/resources</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Specific Q&A Pages -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/qa/unemployment-benefits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/qa/flexible-employment</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/qa/4050</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/qa/enterprise-subsidies</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- About and Info Pages -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/about</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/changelog</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/contact</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- Alternate Language Versions (Chinese) -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/zh/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/zh/policies</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
 </urlset>

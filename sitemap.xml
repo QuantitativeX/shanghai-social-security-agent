@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Main Repository -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Key Documentation Files -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/README.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Skill Definition -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/.agents/skills/shanghai-unemployment-advisor/SKILL.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Policy Guides -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/.agents/skills/shanghai-unemployment-advisor/references/policy-guide.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/.agents/skills/shanghai-unemployment-advisor/references/jobqa.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>biweekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/.agents/skills/shanghai-unemployment-advisor/references/source.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Documentation Files -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/CONTRIBUTING.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/CHANGELOG.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/GITHUB_SEO_GUIDE.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/GOOGLE_SEO_OPTIMIZATION.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/GOOGLE_INDEXING_TROUBLESHOOTING.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/CHINESE_SEARCH_ENGINES.md</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Repository Sections -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/releases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/issues</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/discussions</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <!-- GitHub Pages Site -->
+  <url>
+    <loc>https://quantitativex.github.io/shanghai-social-security-agent/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Installation and Setup -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/install.py</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Skills Configuration -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/tree/main/.agents/skills</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- License -->
+  <url>
+    <loc>https://github.com/QuantitativeX/shanghai-social-security-agent/blob/main/LICENSE</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
